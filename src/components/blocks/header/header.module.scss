@@ -1,0 +1,51 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+.top {
+    height: 49px;
+    background-color: style.$color3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .schedule {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        white-space: pre-wrap;
+        span {
+            color: style.$color4;
+            
+        }
+        img {
+            width: 18px;
+            height: 18px;
+            fill: #810e0e;
+        }
+    }
+    .media {
+        a {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: style.$color1;
+            display: inline-block;
+            margin: 8px;
+        }
+    }
+    .location {
+        font-size: 14px;
+        span {
+            color: style.$color4;
+        }
+    }
+}
+
+.bottom {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: style.$color2;
+    .logo {
+        font-size: 3rem;
+    }
+}

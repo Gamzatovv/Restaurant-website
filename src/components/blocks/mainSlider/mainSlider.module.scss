@@ -1,0 +1,47 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+.block {
+    position: relative;
+
+}
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+
+    .content {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .top-text {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        div {
+            margin-right: 20px;
+            width: 30px;
+            height: 1px;
+            background-color: style.$color4;
+        }
+    }
+    .description {
+        line-height: 140px;
+        font-size: 12rem;
+        font-family: "Oswald";
+        font-weight: 500;
+        width: 650px;
+        margin-bottom: 50px;
+    }
+    .button-block {
+        display: flex;
+    }
+    .button {
+        margin-right: 10px;
+    }
+}
+
