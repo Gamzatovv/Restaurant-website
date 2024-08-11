@@ -1,6 +1,7 @@
 @use "/src/utils/variablesSCSS/variables" as style;
 
 .top {
+    padding: 0 30px;
     height: 49px;
     background-color: style.$color3;
     display: flex;
@@ -40,6 +41,7 @@
 }
 
 .bottom {
+    padding: 0 30px;
     height: 90px;
     display: flex;
     justify-content: space-between;

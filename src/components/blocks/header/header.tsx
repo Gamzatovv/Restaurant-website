@@ -5,7 +5,7 @@ import Button from '../../ui/buttons/button1/button';
 const Header = () => {
     return (
         <header className={style.header}>
-            <div className={style.top + ' container'}>
+            <div className={style.top}>
                 <div className={style.schedule}>
                     <img src="\src\assets\watch.svg" />
                     <span> OPENING HOURS : </span>
@@ -26,7 +26,7 @@ const Header = () => {
                     55 MAIN STREET, NEW YORK
                 </div>
             </div>
-            <div className={style.bottom + ' container'}>
+            <div className={style.bottom}>
                 <div className={style.logo}>
                     coffee
                 </div>
