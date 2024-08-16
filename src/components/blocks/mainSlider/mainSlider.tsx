@@ -1,16 +1,30 @@
 import React from 'react';
 import style from './mainSlider.module.scss';
+
 import Button from '../../ui/buttons/button1/button';
+import NavigationButtons from './components/ui/navigationButtons/navigationButtons';
+
+import { Background, Parallax } from 'react-parallax';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import NavigationButtons from './components/ui/navigationButtons/navigationButtons';
-interface Props {
-    slideItems: []
 
+import slide1 from '../../../../public/mainSlider/slide1.jpg'
+import slide2 from '../../../../public/mainSlider/slide2.jpg'
+import slide3 from '../../../../public/mainSlider/slide3.jpg'
+
+interface SlideItem {
+    topText: string;
+    description: string;
 }
 
+interface Props {
+    slideItems: SlideItem[]
+
+}
+// style={{backgroundImage: ` linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../../../../public/mainSlider/${slideItem.img}.jpg)`}}
 const MainSlider = ({slideItems}: Props) => {
     return (
         <div className={style.block}>
@@ -19,12 +33,17 @@ const MainSlider = ({slideItems}: Props) => {
             speed={1000}
             loop={true}
             autoplay={{
-                delay: 10000,
-            }}
-            >
+                delay: 1000000,
+            }}>
+            
                 {slideItems.map((slideItem)=>(
                     <SwiperSlide>
-                            <div style={{backgroundImage: ` linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../../../../public/mainSlider/${slideItem.img}.jpg)`}} className={style.slide}>
+                        <Parallax 
+                        strength={500} 
+                        bgImage={slide1} 
+                        bgImageStyle={{height: '110%', width: '110%'}}
+                        >
+                            <div  className={style.slide}>
                                 <div className={style.content}>
                                     <div className={style['top-text']}>
                                         <div>
@@ -48,7 +67,8 @@ const MainSlider = ({slideItems}: Props) => {
                                         </div>
                                     </div>
                                 </div>
-                        </div>
+                            </div>
+                        </Parallax>
                     </SwiperSlide>
                 ))}
                 <NavigationButtons/>
