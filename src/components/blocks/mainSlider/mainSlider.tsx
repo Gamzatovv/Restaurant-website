@@ -12,12 +12,11 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 
 import slide1 from '../../../../public/mainSlider/slide1.jpg'
-import slide2 from '../../../../public/mainSlider/slide2.jpg'
-import slide3 from '../../../../public/mainSlider/slide3.jpg'
 
 interface SlideItem {
     topText: string;
     description: string;
+    image: string;
 }
 
 interface Props {
@@ -33,14 +32,14 @@ const MainSlider = ({slideItems}: Props) => {
             speed={1000}
             loop={true}
             autoplay={{
-                delay: 1000000,
+                delay: 10000,
             }}>
             
                 {slideItems.map((slideItem)=>(
                     <SwiperSlide>
                         <Parallax 
                         strength={500} 
-                        bgImage={slide1} 
+                        bgImage={'../../../../public/mainSlider/' + slideItem.image + '.jpg'} 
                         bgImageStyle={{height: '110%', width: '110%'}}
                         >
                             <div  className={style.slide}>
@@ -50,6 +49,7 @@ const MainSlider = ({slideItems}: Props) => {
 
                                         </div>
                                         {slideItem.topText}
+                                        {'../../../../public/mainSlider/' + slideItem.image + '.jpg'}
                                     </div>
                                     <div className={style.description}>
                                         {slideItem.description}
