@@ -49,7 +49,6 @@ const MainSlider = ({slideItems}: Props) => {
 
                                         </div>
                                         {slideItem.topText}
-                                        {'../../../../public/mainSlider/' + slideItem.image + '.jpg'}
                                     </div>
                                     <div className={style.description}>
                                         {slideItem.description}
