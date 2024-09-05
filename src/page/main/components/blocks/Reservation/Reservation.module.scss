@@ -1,0 +1,20 @@
+.reservation {
+    display: flex;
+    justify-content: space-between;
+    .image-left {
+        flex-grow: 1;
+        display:flex;
+        width: auto;
+        background-image: url(public/background/reservation/reservation1.jpg);
+        background-size: cover;
+        background-position: center right;
+    }
+    .image-right {
+        flex-grow: 1;
+        width: auto;
+        background-image: url(public/background/reservation/reservation2.jpg);
+        background-size: cover;
+        background-position: center left;
+
+    }
+}

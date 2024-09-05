@@ -1,5 +1,5 @@
 import React from 'react';
-import MainSlider from '../../../../../components/blocks/mainSlider/mainSlider';
+import MainSlider from '../../../../../components/blocks/MainSlider/MainSlider';
 const TopSlider = () => {
 
     interface SlideItem {

@@ -1,6 +1,6 @@
 import './App.scss'
-import Header from './components/blocks/header/header'
-import Main from './page/main/main'
+import Header from './components/blocks/Header/Header'
+import Main from './page/Main/Main'
 function App() {
 
   return (

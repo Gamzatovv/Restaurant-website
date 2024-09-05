@@ -1,9 +1,7 @@
 import React from 'react';
-import style from './popularDishes.module.scss';
-import dish1 from '../../../../../../public/popularDishes/dish1.jpg'
-import dish2 from '../../../../../../public/popularDishes/dish2.jpg'
-import dish3 from '../../../../../../public/popularDishes/dish3.jpg'
-import dish4 from '../../../../../../public/popularDishes/dish4.jpg'
+import style from './PopularDishes.module.scss';
+
+
 const PopularDishes = () => {
     return (
         <div className={style.popularDishes}>

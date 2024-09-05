@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './dish.module.scss';
+import style from './Dish.module.scss';
 
 
 interface Dish {

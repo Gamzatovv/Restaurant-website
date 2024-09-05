@@ -1,0 +1,79 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+.reservation {
+    border-top: 3px solid style.$color4;
+    width: 100%;
+    max-width: 770px;
+    text-align: center;
+    background-color: style.$color3;
+    padding: 80px 45px 45px;
+    .subtitle {
+        color: style.$color4;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .title {
+        color: style.$color1;
+        font-size: 4.2rem;
+        font-family: style.$fontFamily;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 24px;
+    grid-row-gap: 20px;
+    
+}
+.item {
+    position: relative;
+    .input {
+        padding: 0 60px 0 20px;
+        background-color: style.$color3;
+        height: 60px;
+        width: 100%;
+        border: 1px solid style.$color7;
+        &::placeholder {
+            color: style.$color1;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+    }
+
+    select {
+        padding: 0 60px 0 20px;
+        background-color: style.$color3;
+        height: 60px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid style.$color7;
+        appearance: none;
+    }
+}
+    
+.image {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 23px;
+    filter: invert(100%);
+
+    &Email {
+        filter: invert(0);
+        font-size: 2rem;
+        font-family: style.$fontFamily;
+        font-weight: 500;
+    }
+    &Arrow {
+        width: 16px;
+        pointer-events: none;
+
+    }
+}
+    

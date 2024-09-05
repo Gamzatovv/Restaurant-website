@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { useSwiper } from 'swiper/react';
-import style from './navigationButtons.module.scss'
-const navigationButtons = () => {
+import style from './NavigationButtons.module.scss'
+const NavigationButtons = () => {
     const swiper = useSwiper();
     return (
         <div className={style.navigationButtons}>
@@ -17,4 +17,4 @@ const navigationButtons = () => {
     );
 };
 
-export default navigationButtons;
+export default NavigationButtons;

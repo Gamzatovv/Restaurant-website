@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './mainSlider.module.scss';
+import style from './MainSlider.module.scss';
 
-import Button from '../../ui/buttons/button1/button';
-import NavigationButtons from './components/ui/navigationButtons/navigationButtons';
+import Button from '../../ui/buttons/Button1/Button';
+import NavigationButtons from './components/ui/NavigationButtons/NavigationButtons';
 
 import { Background, Parallax } from 'react-parallax';
 

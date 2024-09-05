@@ -1,11 +1,11 @@
 import React from 'react';
-import style from './popularMenu.module.scss';
+import style from './PopularMenu.module.scss';
 import dataBaseDishes from '../../../../../assets/dataBase/dataBaseDishes/dataBaseDishes.json'
-import Dish from './dish/dish';
+import Dish from './Dish/Dish';
 
 
 
-interface Dish {
+interface DishType {
     id: number;
     type: string;
     name: string;
@@ -15,39 +15,7 @@ interface Dish {
   }
 const PopularMenu = () => {
 
-    const listDish: Dish[] = dataBaseDishes
-
-    
-
-
-
-    const products: Product[] = [
-        {
-          id: 1,
-          name: 'Product 1',
-          price: 29.99,
-          description: 'This is the description for product 1',
-          image: '/images/product1.jpg'
-        },
-        {
-          id: 2,
-          name: 'Product 2',
-          price: 39.99,
-          description: 'This is the description for product 2',
-          image: '/images/product2.jpg'
-        },
-        {
-          id: 3,
-          name: 'Product 3',
-          price: 49.99,
-          description: 'This is the description for product 3',
-          image: '/images/product3.jpg'
-        }
-      ];
-
-
-
-
+    const listDish: DishType[] = dataBaseDishes
 
     return (
         <div className={style.popularMenu}>

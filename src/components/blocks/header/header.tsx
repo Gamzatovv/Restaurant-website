@@ -1,16 +1,18 @@
 import React from 'react';
-import style from './header.module.scss'
-import NavigationMenu from './components/blocks/navigationMenu/navigationMenu';
-import Button from '../../ui/buttons/button1/button';
-import watch from '../../../../public/icons/watch.svg'
+import style from './Header.module.scss'
+import NavigationMenu from './components/blocks/NavigationMenu/NavigationMenu';
+import Button from '../../ui/buttons/Button1/Button';
+import watchImage from '../../../../public/icons/something/watch.png'
 const Header = () => {
     return (
         <header className={style.header}>
             <div className={style.top}>
                 <div className={style.schedule}>
-                    <img src={watch} />
-                    <span> OPENING HOURS : </span>
-                    08:00 AM - 09:00 PM
+                    <img src={watchImage} />
+                    <div>
+                        <span> OPENING HOURS : </span>
+                        08:00 AM - 09:00 PM
+                    </div>
                 </div>
                 <div className={style.media}>
                     <a href="">

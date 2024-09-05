@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './navigationMenu.module.scss';
+import style from './NavigationMenu.module.scss';
 
 const NavigationMenu = () => {
     return (
