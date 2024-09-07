@@ -13,24 +13,22 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  div {
-    margin-left: 4px;
-    transform: rotate(45deg);
-    display: inline-block;
-    width: 9px;
-    height:9px;
-    border-top: 2px solid style.$color1;
-    border-right: 2px solid style.$color1;
-    border-radius: 10%;
+  .arrow {
+    margin-left: 5px;
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 10px;
+    filter: invert(100%);
     transition: 0.3s;
+
   }
 }
 
 .button:hover {
   color: style.$color4;
   background-color: style.$color1;
-  div {
-    border-color: style.$color4;
+  .arrow {
+    filter: invert(60%) sepia(19%) saturate(662%) hue-rotate(345deg) brightness(99%) contrast(86%);
   }
 }
 

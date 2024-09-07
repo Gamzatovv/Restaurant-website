@@ -30,9 +30,9 @@ const PopularDishes = () => {
                         Choose Your Best Food<br/>
                         From Categories
                     </h3>
-                    <div className={style['description-text']}>
+                    <p className={style['description-text']}>
                         A ball is a geometric body; the totality of all points in space located at a distance from the center, no more than a given one. This distance is called the radius of the ball. The ball is formed by rotating a semicircle around its fixed diameter.
-                    </div>
+                    </p>
                 </div>
                 
             </div>

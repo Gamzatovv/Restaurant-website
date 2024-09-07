@@ -5,6 +5,9 @@ import calendarImage from '../../../../public/icons/reservationForm/calendar.png
 import watchImage from '../../../../public/icons/something/watch.png'
 import arrowImage from '../../../../public/icons/something/arrow.png'
 
+
+import Button from '../../ui/buttons/Button1/Button'
+
 const Reservation = () => {
     return (
         <div className={style.reservation}>
@@ -62,12 +65,13 @@ const Reservation = () => {
 
                 <div className={style.item}>
                     <input
-                    className={style.input}
+                    className={`${style.input} ${style.inputDate}`}
                     type="date" 
-                    placeholder='Full' 
                     name='name' 
                     />
-                    <img className={style.image}  src={calendarImage}/>
+                    <img 
+                    className={`${style.image} ${style.imageCalendar}`}
+                    src={calendarImage}/>
                 </div>
                 
                 <div className={style.item}>
@@ -81,7 +85,11 @@ const Reservation = () => {
                     className={`${style.image} ${style.imageWatch}`} 
                     src={watchImage}/>
                 </div>
-
+                <div className={style.buttonBox}>
+                    <Button>
+                        Booking table
+                    </Button>
+                </div>
             </form>     
         </div>
     );

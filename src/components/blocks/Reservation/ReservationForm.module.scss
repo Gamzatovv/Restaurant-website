@@ -28,32 +28,50 @@
     grid-column-gap: 24px;
     grid-row-gap: 20px;
     
-}
-.item {
-    position: relative;
-    .input {
-        padding: 0 60px 0 20px;
-        background-color: style.$color3;
-        height: 60px;
-        width: 100%;
-        border: 1px solid style.$color7;
-        &::placeholder {
-            color: style.$color1;
-            font-size: 1.6rem;
-            font-weight: 500;
-        }
+    .item {
+        position: relative;
     }
 
-    select {
-        padding: 0 60px 0 20px;
-        background-color: style.$color3;
-        height: 60px;
-        font-size: 1.8rem;
-        font-weight: 500;
-        width: 100%;
-        border: 1px solid style.$color7;
-        appearance: none;
+    .buttonBox {
+        display: flex;
+        justify-content: center;
+        grid-column: 1 / 3;
+
     }
+}
+.input {
+    padding: 0 60px 0 20px;
+    background-color: style.$color3;
+    height: 60px;
+    width: 100%;
+    border: 1px solid style.$color7;
+    &::placeholder, & {
+        color: style.$color1;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+}
+
+.inputDate {
+    padding-right: 15px;
+    &::-webkit-calendar-picker-indicator {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+}
+
+.item select {
+    padding: 0 60px 0 20px;
+    background-color: style.$color3;
+    height: 60px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid style.$color7;
+    appearance: none;
 }
     
 .image {
@@ -72,6 +90,11 @@
     }
     &Arrow {
         width: 16px;
+        pointer-events: none;
+
+    }
+
+    &Calendar {
         pointer-events: none;
 
     }
