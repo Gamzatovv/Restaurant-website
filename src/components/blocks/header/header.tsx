@@ -31,7 +31,7 @@ const Header = () => {
             </div>
             <div className={style.bottom}>
                 <div className={style.logo}>
-                    coffee
+                    Kaffen
                 </div>
                 <NavigationMenu/>
                 <Button>

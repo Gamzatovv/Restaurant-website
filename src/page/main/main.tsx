@@ -6,7 +6,7 @@ import PopularMenu from './components/blocks/PopularMenu/PopularMenu';
 import Chiefs from './components/blocks/Chiefs/Chiefs';
 import Reservation from './components/blocks/Reservation/Reservation';
 import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant';
-
+import VideoReview from './components/blocks/VideoReview/VideoReview';
 
 const Main = () => {
     
@@ -29,6 +29,9 @@ const Main = () => {
             </section>
             <section>
                 <AboutRestaurant/>
+            </section>
+            <section>
+                <VideoReview/>
             </section>
         </>
     );
