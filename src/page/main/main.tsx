@@ -7,6 +7,7 @@ import Chiefs from './components/blocks/Chiefs/Chiefs';
 import Reservation from './components/blocks/Reservation/Reservation';
 import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant';
 import VideoReview from './components/blocks/VideoReview/VideoReview';
+import Advantages from './components/blocks/Advantages/Advantages';
 
 const Main = () => {
     
@@ -32,6 +33,9 @@ const Main = () => {
             </section>
             <section>
                 <VideoReview/>
+            </section>
+            <section>
+                <Advantages/>
             </section>
         </>
     );
