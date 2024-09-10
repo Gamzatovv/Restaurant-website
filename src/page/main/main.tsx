@@ -8,6 +8,7 @@ import Reservation from './components/blocks/Reservation/Reservation';
 import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant';
 import VideoReview from './components/blocks/VideoReview/VideoReview';
 import Advantages from './components/blocks/Advantages/Advantages';
+import ProceedToBooking from './components/blocks/ProceedToBooking/ProceedToBooking';
 
 const Main = () => {
     
@@ -36,6 +37,9 @@ const Main = () => {
             </section>
             <section>
                 <Advantages/>
+            </section>
+            <section>
+                <ProceedToBooking/>
             </section>
         </>
     );
