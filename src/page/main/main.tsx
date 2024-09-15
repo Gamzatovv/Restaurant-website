@@ -9,6 +9,7 @@ import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant
 import VideoReview from './components/blocks/VideoReview/VideoReview';
 import Advantages from './components/blocks/Advantages/Advantages';
 import ProceedToBooking from './components/blocks/ProceedToBooking/ProceedToBooking';
+import ImageGallery from './components/blocks/ImageGallery/ImageGallery';
 
 const Main = () => {
     
@@ -40,6 +41,9 @@ const Main = () => {
             </section>
             <section>
                 <ProceedToBooking/>
+            </section>
+            <section>
+                <ImageGallery/>
             </section>
         </>
     );

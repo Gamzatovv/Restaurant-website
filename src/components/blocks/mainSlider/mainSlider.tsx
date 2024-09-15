@@ -11,8 +11,6 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-import slide1 from '../../../../public/mainSlider/slide1.jpg'
-
 interface SlideItem {
     topText: string;
     description: string;
