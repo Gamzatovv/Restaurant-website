@@ -1,0 +1,6 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+.brands {
+    background-color: style.$color2;
+    padding: 70px 0;
+}
