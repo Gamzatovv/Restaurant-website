@@ -1,4 +1,4 @@
-import style from './TopSlider.module.scss'
+import style from './TopBlock.module.scss'
 
 import { Parallax } from 'react-parallax';
 
