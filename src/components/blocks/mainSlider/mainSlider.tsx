@@ -4,7 +4,7 @@ import style from './MainSlider.module.scss';
 import Button from '../../ui/buttons/Button1/Button';
 import NavigationButtons from './components/ui/NavigationButtons/NavigationButtons';
 
-import { Background, Parallax } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
