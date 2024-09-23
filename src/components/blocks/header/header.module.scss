@@ -25,13 +25,10 @@
         }
     }
     .media {
-        a {
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background-color: style.$color1;
-            display: inline-block;
+        a img {
+            height: 16px;
             margin: 8px;
+            filter: invert(80%);
         }
     }
     .location {
@@ -43,8 +40,7 @@
 }
 
 .bottom {
-    padding: 0 30px;
-    height: 90px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;

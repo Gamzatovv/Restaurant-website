@@ -1,9 +1,9 @@
-.reservation {
+.reservationBlock {
     display: flex;
     justify-content: space-between;
+    
     .image-left {
         flex-grow: 1;
-        display:flex;
         width: auto;
         background-image: url(public/background/reservation/reservation1.jpg);
         background-size: cover;

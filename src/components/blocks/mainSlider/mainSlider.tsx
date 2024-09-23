@@ -38,7 +38,7 @@ const MainSlider = ({slideItems}: Props) => {
                         <Parallax 
                         strength={500} 
                         bgImage={'../../../../public/mainSlider/' + slideItem.image + '.jpg'} 
-                        bgImageStyle={{height: '110%', width: '110%'}}
+                        bgImageStyle={{ height: 'auto'}}
                         >
                             <div  className={style.slide}>
                                 <div className={style.content}>

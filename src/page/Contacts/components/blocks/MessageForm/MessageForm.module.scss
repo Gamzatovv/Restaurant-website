@@ -1,0 +1,81 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+.MessageForm {
+    text-align: center;
+    padding: 80px 45px 45px;
+    background-color: style.$color3;
+    width: 1146px;
+    .subTitle {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        color: style.$color4;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 4.2rem;
+        font-family: style.$fontFamily;
+        font-weight: 400;
+        margin-bottom: 30px;  
+    }
+}
+.form {
+    input, textarea {
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid #21282f;
+        &::placeholder, & {
+            color: style.$color1;
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.UserInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    .UserInfoInputBox {
+        position: relative;
+        margin-bottom: 20px;
+        .userInfoInput {
+            padding: 0 20px;
+            height: 60px;
+        }
+        .userInfoInputImage {
+            width: 23px;
+            filter: invert(100%);
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+
+        }
+        .characterEmail {
+            filter: invert(0);
+            font-size: 2rem;
+            font-family: style.$fontFamily;
+            font-weight: 500;
+        }
+    }
+}
+
+.subjectInput {
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+}
+
+.messageInput {
+    padding: 26px 20px;
+    height: 260px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.formButton {
+    display: flex;
+    justify-content: center;
+}

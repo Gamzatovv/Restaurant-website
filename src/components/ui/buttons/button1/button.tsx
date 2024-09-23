@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import style from './Button.module.scss';
 import arrow from '../../../../../public/icons/something/arrow.png'
 

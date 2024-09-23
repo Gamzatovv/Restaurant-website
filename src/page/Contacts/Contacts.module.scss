@@ -1,0 +1,23 @@
+@use "/src/utils/variablesSCSS/variables" as style;
+
+
+.cardsBlock {
+    background-color: style.$color2;
+    padding: 130px 0;
+}
+
+.MessageFormBlock {
+    display: flex;
+    justify-content: center;
+    background-color: style.$color2;
+    padding-bottom: 130px;
+}
+
+.imageGalleryBlock {
+    background-color: style.$color2;
+}
+
+.BrandsBlock {
+    background-color: style.$color2;
+    padding: 70px 0;
+}

@@ -11,7 +11,7 @@
         color: style.$color4;
         font-size: 1.6rem;
         text-transform: uppercase;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .title {
         color: style.$color1;
@@ -82,21 +82,20 @@
     width: 23px;
     filter: invert(100%);
 
-    &Email {
-        filter: invert(0);
-        font-size: 2rem;
-        font-family: style.$fontFamily;
-        font-weight: 500;
-    }
     &Arrow {
         width: 16px;
         pointer-events: none;
-
+        
     }
-
+    
     &Calendar {
         pointer-events: none;
-
+        
     }
 }
-    
+
+.characterEmail {
+    font-size: 2rem;
+    font-family: style.$fontFamily;
+    font-weight: 500;
+}

@@ -35,7 +35,7 @@ const Reservation = () => {
                     placeholder='Email Address' 
                     name='email' 
                     />
-                    <div className={`${style.image} ${style.imageEmail}`} >
+                    <div className={`${style.image} ${style.characterEmail}`} >
                         @
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Reservation = () => {
                     className={style.input}
                     type="tel" 
                     placeholder='Phone Number' 
-                    name='phone number' 
+                    name='phoneNumber' 
                     />
                     <img className={style.image}  src={phoneImage}/>
                 </div>
