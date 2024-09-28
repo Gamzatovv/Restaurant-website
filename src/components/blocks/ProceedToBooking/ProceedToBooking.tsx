@@ -1,9 +1,15 @@
 import style from './ProceedToBooking.module.scss';
-import Button from '../../../../../components/ui/buttons/Button1/Button';
+import Button from '../../ui/buttons/Button1/Button';
 
-const ProceedToBooking = () => {
+interface Props {
+    background: string;
+}
+
+const ProceedToBooking = ({background}: Props) => {
     return (
-        <div className={style.ProceedToBooking}>
+        <div 
+        style={{backgroundImage: `url(/public/background/ProceedToBooking/${background})`}}
+        className={style.ProceedToBooking}>
             <div className={style.contentBox + ' container'}>
                 <div className={style.infoBlock}>
                     <div className={style.subtitle}>

@@ -24,7 +24,7 @@ interface Props {
 // style={{backgroundImage: ` linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../../../../public/mainSlider/${slideItem.img}.jpg)`}}
 const MainSlider = ({slideItems}: Props) => {
     return (
-        <div className={style.block}>
+        <div className={style.MainSlider}>
             <Swiper
             modules={[Autoplay]}
             speed={1000}
@@ -36,9 +36,9 @@ const MainSlider = ({slideItems}: Props) => {
                 {slideItems.map((slideItem)=>(
                     <SwiperSlide>
                         <Parallax 
-                        strength={500} 
+                        strength={200} 
                         bgImage={'../../../../public/mainSlider/' + slideItem.image + '.jpg'} 
-                        bgImageStyle={{ height: 'auto'}}
+                        bgImageStyle={{  height: '100vh' }}
                         >
                             <div  className={style.slide}>
                                 <div className={style.content}>

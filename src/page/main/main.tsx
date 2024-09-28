@@ -8,7 +8,7 @@ import Reservation from './components/blocks/Reservation/Reservation';
 import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant';
 import VideoReview from './components/blocks/VideoReview/VideoReview';
 import Advantages from './components/blocks/Advantages/Advantages';
-import ProceedToBooking from './components/blocks/ProceedToBooking/ProceedToBooking';
+import ProceedToBooking from '../../components/blocks/ProceedToBooking/ProceedToBooking';
 import ImageGallery from './components/blocks/ImageGallery/ImageGallery';
 import Brands from './components/blocks/Brands/Brands';
 
@@ -41,7 +41,7 @@ const Main = () => {
                 <Advantages/>
             </section>
             <section>
-                <ProceedToBooking/>
+                <ProceedToBooking background='image1.jpg'/>
             </section>
             <section>
                 <ImageGallery/>

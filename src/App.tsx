@@ -9,6 +9,7 @@ import Main from './page/Main/Main'
 import AboutUs from './page/AboutUs/AboutUs'
 import Reservation from './page/Reservation/Reservation'
 import Contacts from './page/Contacts/Contacts'
+import Menu from './page/Menu/Menu'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs/>}/>
           <Route path="/Reservation" element={<Reservation/>}/>
           <Route path="/Contacts" element={<Contacts/>}/>
+          <Route path="/Menu" element={<Menu/>}/>
         </Routes>
       <Footer/>
     </>

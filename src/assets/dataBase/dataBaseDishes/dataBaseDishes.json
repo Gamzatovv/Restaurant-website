@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "type": "dishes",
         "name": "Chicken",
         "price": 14.00,
@@ -8,7 +8,7 @@
         "image": "dishes1.jpg"
     },
     {
-        "id": 2,
+        "id": 1,
         "type": "dishes",
         "name": "Salad Bowl",
         "price": 16.00,
@@ -16,7 +16,7 @@
         "image": "dishes2.jpg"
     },
     {
-        "id": 3,
+        "id": 2,
         "type": "dishes",
         "name": "Smoothie",
         "price": 12.00,
@@ -24,7 +24,7 @@
         "image": "dishes3.jpg"
     },
     {
-        "id": 4,
+        "id": 3,
         "type": "dishes",
         "name": "Gin Trifles",
         "price": 24.00,
@@ -32,7 +32,7 @@
         "image": "dishes4.jpg"
     },
     {
-        "id": 5,
+        "id": 4,
         "type": "dishes",
         "name": "Quesadillas",
         "price": 12.00,
@@ -40,7 +40,7 @@
         "image": "dishes5.jpg"
     },
     {
-        "id": 6,
+        "id": 5,
         "type": "dishes",
         "name": "Sea Fish",
         "price": 13.00,
@@ -48,7 +48,7 @@
         "image": "dishes6.jpg"
     },
     {
-        "id": 7,
+        "id": 6,
         "type": "dishes",
         "name": "Okonomiyaki",
         "price": 21.00,
@@ -56,7 +56,7 @@
         "image": "dishes7.jpg"
     },
     {
-        "id": 8,
+        "id": 7,
         "type": "dishes",
         "name": "Benedict",
         "price": 20.00,
@@ -65,15 +65,14 @@
     },
 
     {
-        "id": 9,
+        "id": 8,
         "type": "rotulis",
         "name": "Baked salmon",
         "price": 16.00,
         "description": "Cream cheese, sugar, eggs, vanilla extract, cookies for the crust, butter, sour cream, lemon juice",
         "image": "rotulis1.png"
     },
-    {
-        "id": 10,
+    {   "id": 9 ,
         "type": "rotulis",
         "name": "Oisi",
         "price": 12.00,
@@ -81,7 +80,7 @@
         "image": "rotulis2.png"
     },
     {
-        "id": 11,
+        "id": 10,
         "type": "rotulis",
         "name": "Philadelphia",
         "price": 19.00,
@@ -89,7 +88,7 @@
         "image": "rotulis3.jpg"
     },
     {
-        "id": 12,
+        "id": 11,
         "type": "rotulis",
         "name": "Mexican roll",
         "price": 12.00,
@@ -97,7 +96,7 @@
         "image": "rotulis4.jpg"
     },
     {
-        "id": 13,
+        "id": 12,
         "type": "rotulis",
         "name": "Baked California",
         "price": 11.00,
@@ -105,7 +104,7 @@
         "image": "rotulis5.jpg"
     },
     {
-        "id": 14,
+        "id": 13,
         "type": "rotulis",
         "name": "Salmon cheese",
         "price": 16.00,
@@ -113,7 +112,7 @@
         "image": "rotulis6.jpg"
     },
     {
-        "id": 15,
+        "id": 14,
         "type": "rotulis",
         "name": "Canadian Black",
         "price": 15.00,
@@ -121,7 +120,7 @@
         "image": "rotulis7.jpg"
     },
     {
-        "id": 16,
+        "id": 15,
         "type": "rotulis",
         "name": "California",
         "price": 12.00,
@@ -129,8 +128,7 @@
         "image": "rotulis8.jpg"
     },
     
-    {
-        "id": 17,
+    {   "id": 16,
         "type": "deserts",
         "name": "cheesecake",
         "price": 10.00,
@@ -138,7 +136,7 @@
         "image": "desert1.jpg"
     },
     {
-        "id": 18,
+        "id": 17,
         "type": "deserts",
         "name": "Tiramisu",
         "price": 21.00,
@@ -146,7 +144,7 @@
         "image": "desert2.jpg"
     },
     {
-        "id": 19,
+        "id": 18,
         "type": "deserts",
         "name": "Strudel",
         "price": 20.00,
@@ -154,7 +152,7 @@
         "image": "desert3.jpg"
     },
     {
-        "id": 20,
+        "id": 19,
         "type": "deserts",
         "name": "Brownie",
         "price": 13.00,
@@ -162,7 +160,7 @@
         "image": "desert4.jpg"
     },
     {
-        "id": 21,
+        "id": 20,
         "type": "deserts",
         "name": "Profiteroles",
         "price": 12.00,
@@ -170,7 +168,7 @@
         "image": "desert5.jpg"
     },
     {
-        "id": 22,
+        "id": 21,
         "type": "deserts",
         "name": "Pancakes",
         "price": 18.00,
@@ -178,7 +176,7 @@
         "image": "desert6.jpg"
     },
     {
-        "id": 23,
+        "id": 22,
         "type": "deserts",
         "name": "Ice cream",
         "price": 17.00,
@@ -186,7 +184,7 @@
         "image": "desert7.jpg"
     },
     {
-        "id": 24,
+        "id": 23,
         "type": "deserts",
         "name": "Macarons",
         "price": 15.00,
@@ -198,58 +196,57 @@
 
 
 
-
     {
-        "id": 25,
+        "id": 24,
         "type": "drinks",
         "name": "blue lagoon",
         "price": 50.00,
         "image": "drink1.jpg"
     },
     {
-        "id": 26,
+        "id": 25,
         "type": "drinks",
         "name": "bubble gum",
         "price": 19.00,
         "image": "drink2.jpg"
     },
     {
-        "id": 27,
+        "id": 26,
         "type": "drinks",
         "name": "strawberry cocktail",
         "price": 10.00,
         "image": "drink3.jpg"
     },
     {
-        "id": 28,
+        "id": 27,
         "type": "drinks",
         "name": "Mahito",
         "price": 12.00,
         "image": "drink4.jpg"
     },
     {
-        "id": 29,
+        "id": 28,
         "type": "drinks",
         "name": "pomegranate cocktail",
         "price": 17.00,
         "image": "drink5.jpg"
     },
     {
-        "id": 30,
+        "id": 29,
         "type": "drinks",
         "name": "orange cocktail",
         "price": 11.00,
         "image": "drink6.jpg"
     },
     {
-        "id": 31,
+        "id": 30,
         "type": "drinks",
         "name": "pineapple cocktail",
         "price": 30.00,
         "image": "drink7.jpg"
     },
     {
-        "id": 32,
+        "id": 31,
         "type": "drinks",
         "name": "watermelon cocktail",
         "price": 14.00,
@@ -257,58 +254,57 @@
     },
 
 
-
     {
-        "id": 33,
+        "id": 32,
         "type": "coffee",
         "name": "Americano",
         "price": 50.00,
         "image": "coffee1.jpg"
     },
     {
-        "id": 34,
+        "id": 33,
         "type": "coffee",
         "name": "doppio",
         "price": 19.00,
         "image": "coffee2.jpg"
     },
     {
-        "id": 35,
+        "id": 34,
         "type": "coffee",
         "name": "lungo",
         "price": 10.00,
         "image": "coffee3.jpg"
     },
     {
-        "id": 36,
+        "id": 35,
         "type": "coffee",
         "name": "tripple",
         "price": 12.00,
         "image": "coffee4.jpg"
     },
     {
-        "id": 37,
+        "id": 36,
         "type": "coffee",
         "name": "Flat white",
         "price": 17.00,
         "image": "coffee5.jpg"
     },
     {
-        "id": 38,
+        "id": 37,
         "type": "coffee",
         "name": "raf-coffee",
         "price": 11.00,
         "image": "coffee6.jpg"
     },
     {
-        "id": 39,
+        "id": 38,
         "type": "coffee",
         "name": "moccachino",
         "price": 30.00,
         "image": "coffee7.jpg"
     },
     {
-        "id": 40,
+        "id": 39,
         "type": "coffee",
         "name": "bombon",
         "price": 14.00,

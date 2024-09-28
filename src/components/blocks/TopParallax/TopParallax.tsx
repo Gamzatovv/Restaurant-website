@@ -9,11 +9,11 @@ interface Props {
 
 const TopParallax = ({imagePath, title}: Props) => {
     return (
-        <div>
+        <div className={style.TopParallax}>
             <Parallax 
             strength={250} 
             bgImage={`../../../../../../public/${imagePath}`} 
-            bgImageStyle={{ width: '100%'}}
+            bgImageStyle={{ width: '100%',}}
             >
                 <div className={style.TopSliderBlock + ' container'}>
                     <h2 className={style.title}>

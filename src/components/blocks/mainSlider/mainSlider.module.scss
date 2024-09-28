@@ -1,13 +1,14 @@
 @use "/src/utils/variablesSCSS/variables" as style;
 
-.block {
+.MainSlider {
     position: relative;
-
+    z-index: 2;
 }
 .slide {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    position: relative;
+    z-index: 3;
+    background-image:linear-gradient(rgb(14, 19, 23, 0.2), rgb(14, 19, 23, 0.2));
+
     height: calc(100vh - 140px);
     display: flex;
     align-items: center;

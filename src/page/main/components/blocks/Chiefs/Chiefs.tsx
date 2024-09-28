@@ -19,7 +19,7 @@ const Chiefs = () => {
     return (
         <div className={style.chiefs}>
             <div className='container'>
-                <div className={style.subtitle}>
+                <div className={style.subTitle}>
                     Experience team member
                 </div>
                 <h3 className={style.title}>
