@@ -21,7 +21,7 @@ interface Dish {
 
 
 const DishCard = ({dish}: DishProps) => {
-    const count = useSelector((state: RootState)=>state.dish[dish.id])
+    const count = useSelector((state: RootState)=>state.dish.find(item=>item.id === dish.id))
     const dispatch = useDispatch()
     return (
         <div className={style.DishCard}>

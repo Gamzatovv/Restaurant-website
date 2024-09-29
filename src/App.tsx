@@ -10,6 +10,7 @@ import AboutUs from './page/AboutUs/AboutUs'
 import Reservation from './page/Reservation/Reservation'
 import Contacts from './page/Contacts/Contacts'
 import Menu from './page/Menu/Menu'
+import Cart from './page/Cart/Cart'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Reservation" element={<Reservation/>}/>
           <Route path="/Contacts" element={<Contacts/>}/>
           <Route path="/Menu" element={<Menu/>}/>
+          <Route path="/Cart" element={<Cart/>}/>
         </Routes>
       <Footer/>
     </>

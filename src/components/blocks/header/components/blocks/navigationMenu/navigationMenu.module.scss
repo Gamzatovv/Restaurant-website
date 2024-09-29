@@ -6,6 +6,9 @@
     
 }
 .navItem {
+    display: flex;
+    align-items: center;
+    height: 50px;
     cursor: pointer;
     position: relative;
     margin: 0 15px;
@@ -19,7 +22,10 @@
     
     span {
         transition: 0.7s;
-        line-height: 50px;
     }
 }
 
+.imageCart {
+    height: 2.3rem;
+    filter: invert(100%);
+}

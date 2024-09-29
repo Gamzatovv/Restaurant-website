@@ -15,6 +15,8 @@ interface DishType {
     image: string;
   }
 
+
+  
 const Menu = () => {
 
     // filtering an array

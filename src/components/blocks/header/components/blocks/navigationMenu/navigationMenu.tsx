@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './NavigationMenu.module.scss';
 import { Link } from 'react-router-dom';
-import arrow1 from '../../../../../../../public/icons/something/arrow.png'
+import image1 from '../../../../../../../public/icons/something/shoppingСart.png'
 
 const NavigationMenu = () => {
     return (
@@ -40,6 +40,13 @@ const NavigationMenu = () => {
                         <span>
                             Contacts
                         </span>
+                    </li>
+                </Link>
+                <Link to={'/Cart'}>
+                    <li className={style.navItem}>
+                        <img 
+                        className={style.imageCart}
+                        src={image1} />
                     </li>
                 </Link>
             </ul>
