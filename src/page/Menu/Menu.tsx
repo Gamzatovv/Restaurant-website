@@ -1,6 +1,6 @@
 import style from './Menu.module.scss';
 import DishCard from './components/blocks/DishCard/DishCard';
-import dataBaseDishes from '../../assets/dataBase/dataBaseDishes/dataBaseDishes.json'
+import dataBaseDishes from '../../assets/dataBase/dataBaseDishes/dataBaseDishes.json';
 import TopParallax from '../../components/blocks/TopParallax/TopParallax';
 import ProceedToBooking from '../../components/blocks/ProceedToBooking/ProceedToBooking';
 import { useState } from 'react';
@@ -20,13 +20,13 @@ interface DishType {
 const Menu = () => {
 
     // filtering an array
-    const Dishes: DishType[] = dataBaseDishes
+    const Dishes: DishType[] = dataBaseDishes;
 
-    const [categorieDishes, setCategoriesDishes] = useState<string>('dishes')
-    const [addClass, setAddClass] = useState<number>(0)
+    const [categorieDishes, setCategoriesDishes] = useState<string>('dishes');
+    const [addClass, setAddClass] = useState<number>(0);
     const handleCategoryChange = (category: string, index: number) => {
         setCategoriesDishes(category);
-        setAddClass(index)
+        setAddClass(index);
     };
     
     const categoriesFilterItem = [
@@ -35,7 +35,7 @@ const Menu = () => {
         'deserts',
         'drinks',
         'coffee',
-    ]
+    ];
 
 
     return (
@@ -61,7 +61,7 @@ const Menu = () => {
                 
             </ul>
             <div className={style.menuList + ' container'}>
-                {Dishes.filter((dish)=> {return dish.type === categorieDishes}).map((dish) => (
+                {Dishes.filter((dish)=> {return dish.type === categorieDishes;}).map((dish) => (
                     <DishCard key={dish.id} dish={dish} />
                 ))}
             </div>

@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player';
 
 const VideoReviewComponent = () => {
 
-    const [visible, setVisible] = useState(false)
+    const [visible, setVisible] = useState(false);
 
     return (
         <div className={style.videoReviewComponent}>

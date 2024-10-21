@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 
-import image1 from '../../../../public/imageGalleryComponent/ImageGalleryComponent1.jpg'
-import image2 from '../../../../public/imageGalleryComponent/ImageGalleryComponent2.jpg'
-import image3 from '../../../../public/imageGalleryComponent/ImageGalleryComponent3.jpg'
-import image4 from '../../../../public/imageGalleryComponent/ImageGalleryComponent4.jpg'
-import image5 from '../../../../public/imageGalleryComponent/ImageGalleryComponent5.jpg'
-import image6 from '../../../../public/imageGalleryComponent/ImageGalleryComponent6.jpg'
+import image1 from '../../../../public/imageGalleryComponent/ImageGalleryComponent1.jpg';
+import image2 from '../../../../public/imageGalleryComponent/ImageGalleryComponent2.jpg';
+import image3 from '../../../../public/imageGalleryComponent/ImageGalleryComponent3.jpg';
+import image4 from '../../../../public/imageGalleryComponent/ImageGalleryComponent4.jpg';
+import image5 from '../../../../public/imageGalleryComponent/ImageGalleryComponent5.jpg';
+import image6 from '../../../../public/imageGalleryComponent/ImageGalleryComponent6.jpg';
 
 const ImageGalleryComponent = () => {
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './NavigationMenu.module.scss';
 import { Link } from 'react-router-dom';
-import image1 from '../../../../../../../public/icons/something/shoppingСart.png'
+import image1 from '../../../../../../../public/icons/something/shoppingСart.png';
 
 const NavigationMenu = () => {
     return (

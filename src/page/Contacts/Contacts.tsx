@@ -1,4 +1,4 @@
-import style from './Contacts.module.scss'
+import style from './Contacts.module.scss';
 import TopParallax from '../../components/blocks/TopParallax/TopParallax';
 import ContactsCardsBlock from './components/blocks/ContactsCardsBlock/ContactsCardsBlock';
 import MessageForm from './components/blocks/MessageForm/MessageForm';

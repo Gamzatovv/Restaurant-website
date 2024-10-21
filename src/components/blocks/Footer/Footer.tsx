@@ -1,15 +1,15 @@
 import React from 'react';
-import style from './Footer.module.scss'
+import style from './Footer.module.scss';
 
-import contactUsImage1 from '../../../../public/icons/footer/geo.png'
-import contactUsImage2 from '../../../../public/icons/footer/mail.png'
-import contactUsImage3 from '../../../../public/icons/footer/phone.png'
+import contactUsImage1 from '../../../../public/icons/footer/geo.png';
+import contactUsImage2 from '../../../../public/icons/footer/mail.png';
+import contactUsImage3 from '../../../../public/icons/footer/phone.png';
 
-import galeryImage1 from '../../../../public/footer/image1.jpg'
-import galeryImage2 from '../../../../public/footer/image2.jpg'
-import galeryImage3 from '../../../../public/footer/image3.jpg'
-import galeryImage4 from '../../../../public/footer/image4.jpg'
-import galeryImage5 from '../../../../public/footer/image5.jpg'
+import galeryImage1 from '../../../../public/footer/image1.jpg';
+import galeryImage2 from '../../../../public/footer/image2.jpg';
+import galeryImage3 from '../../../../public/footer/image3.jpg';
+import galeryImage4 from '../../../../public/footer/image4.jpg';
+import galeryImage5 from '../../../../public/footer/image5.jpg';
 
 const Footer = () => {
     return (

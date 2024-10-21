@@ -1,4 +1,4 @@
-import style from './Reservation.module.scss'
+import style from './Reservation.module.scss';
 import ReservationForm from '../../../../../components/blocks/Reservation/ReservationForm';
 const Reservation = () => {
     return (

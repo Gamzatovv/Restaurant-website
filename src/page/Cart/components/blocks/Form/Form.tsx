@@ -1,7 +1,7 @@
 import style from './Form.module.scss';
-import userImage from '../../../../../../public/icons/reservationForm/user.png'
-import phoneImage from '../../../../../../public/icons/reservationForm/phone.png'
-import Button1 from '../../../../../components/ui/buttons/Button1/Button'
+import userImage from '../../../../../../public/icons/reservationForm/user.png';
+import phoneImage from '../../../../../../public/icons/reservationForm/phone.png';
+import Button1 from '../../../../../components/ui/buttons/Button1/Button';
 
 const Form = () => {
     return (

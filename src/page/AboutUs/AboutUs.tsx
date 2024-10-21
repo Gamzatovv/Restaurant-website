@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TopBlock from './components/blocks/TopBlock/TopBlock'
+import TopBlock from './components/blocks/TopBlock/TopBlock';
 import Description from './components/blocks/Description/Description';
 import Advantages from './components/blocks/Advantages/Advantages';
 import ProceedToBooking from '../../components/blocks/ProceedToBooking/ProceedToBooking';

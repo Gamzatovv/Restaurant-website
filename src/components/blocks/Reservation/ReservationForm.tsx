@@ -1,12 +1,12 @@
-import style from './ReservationForm.module.scss'
-import userImage from '../../../../public/icons/reservationForm/user.png'
-import phoneImage from '../../../../public/icons/reservationForm/phone.png'
-import calendarImage from '../../../../public/icons/reservationForm/calendar.png'
-import watchImage from '../../../../public/icons/something/watch.png'
-import arrowImage from '../../../../public/icons/something/arrow.png'
+import style from './ReservationForm.module.scss';
+import userImage from '../../../../public/icons/reservationForm/user.png';
+import phoneImage from '../../../../public/icons/reservationForm/phone.png';
+import calendarImage from '../../../../public/icons/reservationForm/calendar.png';
+import watchImage from '../../../../public/icons/something/watch.png';
+import arrowImage from '../../../../public/icons/something/arrow.png';
 
 
-import Button from '../../ui/buttons/Button1/Button'
+import Button from '../../ui/buttons/Button1/Button';
 
 const Reservation = () => {
     return (

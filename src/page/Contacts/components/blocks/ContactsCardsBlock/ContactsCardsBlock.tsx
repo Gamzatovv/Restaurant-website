@@ -1,7 +1,7 @@
 import style from './ContactsCardsBlock.module.scss';
-import image1 from '../../../../../../public/icons/something/map.png'
-import image2 from '../../../../../../public/icons/something/letter2.png'
-import image3 from '../../../../../../public/icons/something/headphones.png'
+import image1 from '../../../../../../public/icons/something/map.png';
+import image2 from '../../../../../../public/icons/something/letter2.png';
+import image3 from '../../../../../../public/icons/something/headphones.png';
 
 
 const ContactsCardsBlock = () => {

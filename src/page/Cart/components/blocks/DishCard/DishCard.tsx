@@ -1,10 +1,10 @@
 import style from './DishCard.module.scss';
-import dataBaseDishes from '../../../../../assets/dataBase/dataBaseDishes/dataBaseDishes.json'
+import dataBaseDishes from '../../../../../assets/dataBase/dataBaseDishes/dataBaseDishes.json';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../../../../../state/store';
-import { increment, decrement } from '../../../../../state/dishes/countDishesSlice'
+import { increment, decrement } from '../../../../../state/dishes/countDishesSlice';
 
-import image1 from '../../../../../../public/icons/something/trashcan.png'
+import image1 from '../../../../../../public/icons/something/trashcan.png';
 
 interface Dish {
     id?: number,
@@ -18,13 +18,13 @@ interface DishProps {
 
 
 const DishCard = ({dish}: DishProps) => {
-    const FoundDish = dataBaseDishes.find(item=>item.id === dish.id)
+    const FoundDish = dataBaseDishes.find(item=>item.id === dish.id);
     if (!FoundDish) {
-        return null
+        return null;
     }
 
-    const count = useSelector((state: RootState)=>state.dish.find(item=>item.id === dish.id))
-    const dispatch = useDispatch()
+    const count = useSelector((state: RootState)=>state.dish.find(item=>item.id === dish.id));
+    const dispatch = useDispatch();
     return (
         <div className={style.DishCard}>
             

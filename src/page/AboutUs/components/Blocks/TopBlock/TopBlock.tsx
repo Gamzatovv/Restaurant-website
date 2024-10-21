@@ -1,4 +1,4 @@
-import style from './TopBlock.module.scss'
+import style from './TopBlock.module.scss';
 import TopParallax from '../../../../../components/blocks/TopParallax/TopParallax';
 
 

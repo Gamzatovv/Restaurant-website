@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import style from './Button.module.scss';
-import arrow from '../../../../../public/icons/something/arrow.png'
+import arrow from '../../../../../public/icons/something/arrow.png';
 
 type ButtonProps = {
     children: ReactNode,

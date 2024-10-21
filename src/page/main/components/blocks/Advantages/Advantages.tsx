@@ -1,4 +1,4 @@
-import style from './Advantages.module.scss'
+import style from './Advantages.module.scss';
 import AdvantagesComponent from '../../../../../components/AdvantagesComponent/AdvantagesComponent';
 const Advantages = () => {
     return (

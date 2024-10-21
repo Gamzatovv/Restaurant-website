@@ -6,26 +6,26 @@ export interface DishState {
 }
 
 const initialState: DishState[] = [
-]
+];
 
 const countDishesSlice = createSlice({
     name: 'countDishes',
     initialState,
     reducers: {
         increment: (state, action: PayloadAction<number>)=>{
-            const dish = state.find((dish)=>dish.id === action.payload)
+            const dish = state.find((dish)=>dish.id === action.payload);
             if (dish) {
-                dish.count++
+                dish.count++;
             } else {
-                state.push({id: action.payload, count: 1,})
+                state.push({id: action.payload, count: 1,});
             }
         },
         decrement: (state, action: PayloadAction<number>)=>{
-            const dish = state.find((dish)=>dish.id === action.payload)
+            const dish = state.find((dish)=>dish.id === action.payload);
             if (dish && dish.count > 1) {
-                dish.count-=1
+                dish.count-=1;
             } else {
-                state.splice(action.payload, 1)
+                state.splice(action.payload, 1);
             }
         }
     }
@@ -33,4 +33,4 @@ const countDishesSlice = createSlice({
 });
 
 export const { increment, decrement } = countDishesSlice.actions;
-export default countDishesSlice.reducer
+export default countDishesSlice.reducer;

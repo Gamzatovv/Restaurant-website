@@ -1,8 +1,8 @@
-import style from './AdvantagesComponent.module.scss'
-import advantageImage1 from '../../../public/icons/advantages/image1.png'
-import advantageImage2 from '../../../public/icons/advantages/image2.png'
-import advantageImage3 from '../../../public/icons/advantages/image3.png'
-import advantageImage4 from '../../../public/icons/advantages/image4.png'
+import style from './AdvantagesComponent.module.scss';
+import advantageImage1 from '../../../public/icons/advantages/image1.png';
+import advantageImage2 from '../../../public/icons/advantages/image2.png';
+import advantageImage3 from '../../../public/icons/advantages/image3.png';
+import advantageImage4 from '../../../public/icons/advantages/image4.png';
 const AdvantagesComponent = () => {
     return (
         <div className={style.AdvantagesComponent}>

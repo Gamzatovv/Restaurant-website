@@ -1,6 +1,6 @@
-import style from './Chiefs.module.scss'
-import dataBaseChiefs from '../../../../../assets/dataBase/dataBaseChiefs/dataBaseChiefs.json'
-import Chief from './Chief/Chief'
+import style from './Chiefs.module.scss';
+import dataBaseChiefs from '../../../../../assets/dataBase/dataBaseChiefs/dataBaseChiefs.json';
+import Chief from './Chief/Chief';
 
 interface ChiefType {
     id: number;
@@ -14,7 +14,7 @@ interface ChiefType {
 
 const Chiefs = () => {
 
-    const listChiefs: ChiefType[] = dataBaseChiefs
+    const listChiefs: ChiefType[] = dataBaseChiefs;
 
     return (
         <div className={style.chiefs}>

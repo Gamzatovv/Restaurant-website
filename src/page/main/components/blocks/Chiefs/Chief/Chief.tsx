@@ -1,8 +1,8 @@
-import style from './Chief.module.scss'
-import messenger1 from '../../../../../../../public/icons/messengers/messenger1.png'
-import messenger2 from '../../../../../../../public/icons/messengers/messenger2.png'
-import messenger3 from '../../../../../../../public/icons/messengers/messenger3.png'
-import messenger4 from '../../../../../../../public/icons/messengers/messenger4.png'
+import style from './Chief.module.scss';
+import messenger1 from '../../../../../../../public/icons/messengers/messenger1.png';
+import messenger2 from '../../../../../../../public/icons/messengers/messenger2.png';
+import messenger3 from '../../../../../../../public/icons/messengers/messenger3.png';
+import messenger4 from '../../../../../../../public/icons/messengers/messenger4.png';
 
 
 interface Chief {

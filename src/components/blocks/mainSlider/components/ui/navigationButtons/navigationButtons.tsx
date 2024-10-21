@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useSwiper } from 'swiper/react';
-import style from './NavigationButtons.module.scss'
+import style from './NavigationButtons.module.scss';
 const NavigationButtons = () => {
     const swiper = useSwiper();
     return (

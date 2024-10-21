@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import style from './TopParallax.module.scss'
+import style from './TopParallax.module.scss';
 
 interface Props {
     imagePath: string;

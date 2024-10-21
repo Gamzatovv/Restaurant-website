@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Reservation.module.scss'
+import style from './Reservation.module.scss';
 import ReservationForm from '../../components/blocks/Reservation/ReservationForm';
 import TopParallax from '../../components/blocks/TopParallax/TopParallax';
 import ImageGalleryComponent from '../../components/blocks/ImageGalleryComponent/ImageGalleryComponent';

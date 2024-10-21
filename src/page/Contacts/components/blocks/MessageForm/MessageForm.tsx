@@ -1,8 +1,8 @@
 import style from './MessageForm.module.scss';
 import Button from '../../../../../components/ui/buttons/Button1/Button';
 
-import imageforInput1 from '../../../../../../public/icons/reservationForm/user.png'
-import imageforInput2 from '../../../../../../public/icons/reservationForm/phone.png'
+import imageforInput1 from '../../../../../../public/icons/reservationForm/user.png';
+import imageforInput2 from '../../../../../../public/icons/reservationForm/phone.png';
 
 const MessageForm = () => {
     return (

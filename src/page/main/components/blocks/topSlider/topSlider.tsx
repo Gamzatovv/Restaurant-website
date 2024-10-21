@@ -25,7 +25,7 @@ const TopSlider = () => {
             description: 'Reserve Your Table Today',
             image: 'slide3'
         }
-    ] 
+    ]; 
     return (
         <>
             <MainSlider slideItems={slideItems}/>

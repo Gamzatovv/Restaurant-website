@@ -1,9 +1,9 @@
 import style from './DishCard.module.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../../../../../state/store';
-import { increment, decrement } from '../../../../../state/dishes/countDishesSlice'
+import { increment, decrement } from '../../../../../state/dishes/countDishesSlice';
 
-import image1 from '../../../../../../public/icons/something/shoppingСart.png'
+import image1 from '../../../../../../public/icons/something/shoppingСart.png';
 
 interface Dish {
     id: number;
@@ -21,8 +21,8 @@ interface Dish {
 
 
 const DishCard = ({dish}: DishProps) => {
-    const count = useSelector((state: RootState)=>state.dish.find(item=>item.id === dish.id))
-    const dispatch = useDispatch()
+    const count = useSelector((state: RootState)=>state.dish.find(item=>item.id === dish.id));
+    const dispatch = useDispatch();
     return (
         <div className={style.DishCard}>
             <div 

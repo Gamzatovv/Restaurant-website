@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Description.module.scss'
+import style from './Description.module.scss';
 import Button from '../../../../../components/ui/buttons/Button1/Button';
 
 

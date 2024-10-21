@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './PopularMenu.module.scss';
-import dataBaseDishes from '../../../../../assets/dataBase/dataBaseDishes/dataBaseDishes.json'
+import dataBaseDishes from '../../../../../assets/dataBase/dataBaseDishes/dataBaseDishes.json';
 import Dish from './Dish/Dish';
 
 
@@ -15,7 +15,7 @@ interface DishType {
   }
 const PopularMenu = () => {
 
-    const listDish: DishType[] = dataBaseDishes
+    const listDish: DishType[] = dataBaseDishes;
 
     return (
         <div className={style.popularMenu}>
@@ -26,7 +26,7 @@ const PopularMenu = () => {
             Popular Foods Menu
           </h3>
             <div className={style['list-menu'] + ' container'}>
-                {listDish.filter((dish)=> {return dish.type == 'dishes'}).map((dish) => (
+                {listDish.filter((dish)=> {return dish.type == 'dishes';}).map((dish) => (
                   <Dish key={dish.id} dish={dish} />
                 ))}
                 <div className={style['list-menu__vertical-line']}></div>

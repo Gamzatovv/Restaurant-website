@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './AboutRestaurant.module.scss'
+import style from './AboutRestaurant.module.scss';
 
 import Button from '../../../../../components/ui/buttons/Button1/Button';
 
-import coffeeImage from '../../../../../../public/othersImage/coffee1.png'
-import burgerImage from '../../../../../../public/othersImage/burger1.png'
-import cakeImage from '../../../../../../public/othersImage/cake1.png'
-import croissantImage from '../../../../../../public/othersImage/croissant.png'
-import juiceImage from '../../../../../../public/othersImage/juice1.png'
+import coffeeImage from '../../../../../../public/othersImage/coffee1.png';
+import burgerImage from '../../../../../../public/othersImage/burger1.png';
+import cakeImage from '../../../../../../public/othersImage/cake1.png';
+import croissantImage from '../../../../../../public/othersImage/croissant.png';
+import juiceImage from '../../../../../../public/othersImage/juice1.png';
 
 const AboutRestaurant = () => {
     return (
