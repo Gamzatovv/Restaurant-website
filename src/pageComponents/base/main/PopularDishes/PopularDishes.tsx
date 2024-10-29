@@ -1,5 +1,5 @@
 import style from './PopularDishes.module.scss';
-
+import Title from '../../../../components/common/Title/Title';
 
 const PopularDishes = () => {
     return (
@@ -22,18 +22,15 @@ const PopularDishes = () => {
                     
                 </div>
                 <div className={style.description}>
-                    <div className={style.topText}>
-                        Popular categories
-                    </div>
-                    <h3 className={style.title}>
-                        Choose Your Best Food<br/>
-                        From Categories
-                    </h3>
+                    <Title 
+                    subTitle='Popular categories'
+                    title={`Choose Your Best Food \nFrom Categories`}
+                    horizontalPosition='left'
+                    />
                     <p className={style.descriptionText}>
                         A ball is a geometric body; the totality of all points in space located at a distance from the center, no more than a given one. This distance is called the radius of the ball. The ball is formed by rotating a semicircle around its fixed diameter.
                     </p>
                 </div>
-                
             </div>
         </div>
     );

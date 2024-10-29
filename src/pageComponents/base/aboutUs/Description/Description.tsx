@@ -1,19 +1,19 @@
 import style from './Description.module.scss'
 import Button from '../../../../components/ui/button1/button';
+import Title from '../../../../components/common/Title/Title';
 
 const Description = () => {
     return (
         <div className={style.Description}>
             <div className={style.wrapperContent + ' container'}>
                 <div className={style.descriptionBlock}>
-                    <div className={style.subTitle}>
-                        About Kaffen
-                    </div>
-                    <h3 className={style.title}>
-                        New London Coffee Founded For Extraordinary Test
-                    </h3>
+                    <Title 
+                        subTitle='About Kaffen'
+                        title='New London Coffee Founded For Extraordinary Test'
+                        horizontalPosition='left'
+                    />
                     <p className={style.descriptionText}>
-                    A ball is a geometric body; the totality of all points in space located at a distance from the center, no more than a given one. This distance is called the radius of the ball.
+                        A ball is a geometric body; the totality of all points in space located at a distance from the center, no more than a given one. This distance is called the radius of the ball.
                     </p>
                     <div className={style.advantages}>
                         <div className={style.advantagesItem}>

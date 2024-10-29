@@ -4,7 +4,7 @@ import ProceedToBooking from '../../components/common/ProceedToBooking/ProceedTo
 import MenuFilter from '../../pageComponents/base/menu/MenuFilter/FilterDishes';
 import DishList from '../../pageComponents/base/menu/DishList/DishList'
 import { useState } from 'react';
-
+import Title from '../../components/common/Title/Title';
 
 
 
@@ -22,18 +22,17 @@ const Menu = () => {
 
     return (
         <div className={style.Menu}>
-            <section>
+            <section className={style.sectionParallax}>
                 <TopParallax 
                 imagePath={'background/imageTopParallax2.jpg'} 
                 title={'Menu'}/>
             </section>
-            <div className={style.subTitle}>
-                Choose best of
-            </div>
-            <h3 className={style.title}>
-                kaffen Menu
-            </h3>
-            <section>
+            <Title 
+                subTitle='Choose best of'
+                title='kaffen Menu'
+                horizontalPosition='center'
+            />
+            <section className={style.sectionMenuFilter}>
                 <MenuFilter categories={categoryDishes} selectedСategory={setSelectedCategory}/>
             </section>
             <section>

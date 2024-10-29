@@ -12,19 +12,8 @@
 
 .descriptionBlock {
     width: 40%;
-    .subTitle {
-        color: style.$color4;
-        font-size: 1.6rem;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    .title {
-        font-size: 4.2rem;
-        font-family: style.$fontFamily;
-        font-weight: 400;
-        margin-bottom: 30px;
-    }
     .descriptionText {
+        margin-top: 30px;
         line-height: 28px;
         color: style.$color5;
         font-size: 1.6rem;

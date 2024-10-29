@@ -8,11 +8,11 @@ interface Dish {
     count: number,
 }
 
-interface DishProps {
+interface Props {
     dish: Dish,
 }
 
-const DishCard = ({dish}: DishProps) => {
+const DishCard = ({dish}: Props) => {
 
     const FoundDish = dataBaseDishes.find(item=>item.id === dish.id)
     if (!FoundDish) {

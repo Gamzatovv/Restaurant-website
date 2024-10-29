@@ -6,17 +6,17 @@ import calendarImage from '../../../../public/icons/reservationForm/calendar.png
 import watchImage from '../../../../public/icons/something/watch.png'
 import arrowImage from '../../../../public/icons/something/arrow.png'
 
+import Title from '../Title/Title'
 import Button from '../../ui/button1/button'
 
 const Reservation = () => {
     return (
         <div className={style.reservation}>
-            <div className={style.subtitle}>
-                booking table
-            </div>
-            <h3 className={style.title}>  
-                Make Your Reservation 
-            </h3>
+            <Title 
+                subTitle='booking table'
+                title='Make Your Reservation'
+                horizontalPosition='center'
+            />
             <form className={style.form}>
                 <div className={style.item}>
                     <input

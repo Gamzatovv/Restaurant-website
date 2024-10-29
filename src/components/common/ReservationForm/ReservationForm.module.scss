@@ -7,22 +7,10 @@
     text-align: center;
     background-color: style.$color3;
     padding: 80px 45px 45px;
-    .subtitle {
-        color: style.$color4;
-        font-size: 1.6rem;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    .title {
-        color: style.$color1;
-        font-size: 4.2rem;
-        font-family: style.$fontFamily;
-        font-weight: 400;
-        margin-bottom: 30px;
-    }
 }
 
 .form {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: auto auto ;
     grid-column-gap: 24px;

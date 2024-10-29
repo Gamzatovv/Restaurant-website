@@ -2,22 +2,19 @@ import style from './AboutRestaurant.module.scss'
 import Button from '../../../../components/ui/button1/button';
 import coffeeImage from '../../../../../public/othersImage/coffee1.png'
 import ServiceCards from './ServiceCards/ServiceCards';
+import Title from '../../../../components/common/Title/Title';
 
 const AboutRestaurant = () => {
-
     
-
     return (
         <div className={style.aboutRestaurant}>
             <div className={style.box + " container"}>
                 <div className={style.info}>
-                    <h3 className={style.subtitle}>
-                        About Kaffen
-                    </h3>
-                    <div className={style.title}>
-                        Have Nice & Enjoyable<br/>
-                        Time With Our Foods 
-                    </div>
+                    <Title 
+                    subTitle='About Kaffen'
+                    title={`Have Nice & Enjoyable \nTime With Our Foods `}
+                    horizontalPosition='left'
+                    />
                     <p className={style.description}>
                         A ball is a geometric body; the totality of all points in space located at a distance from the center, no more than a given one. This distance is called the radius of the ball.
                     </p>

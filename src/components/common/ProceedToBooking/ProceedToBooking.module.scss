@@ -28,19 +28,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.titleBlock {
-
-    .subtitle {
-        text-transform: uppercase;
-        color: style.$color4;
-        font-size: 1.6rem;
-        margin-bottom: 10px;
-    }
-    .title {
-        font-weight: 400;
-        font-family: style.$fontFamily;
-        color: style.$color1;
-        font-size: 4.2rem;
-    }
-}

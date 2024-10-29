@@ -3,23 +3,10 @@
 .popularMenu {
     background-color: style.$color3;
     padding-top: 130px;
-    .subtitle {
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1.6rem;
-        color: style.$color4;
-        margin-bottom: 10px;
-    }
-    .title {
-        font-family: style.$fontFamily;
-        font-size: 4.2rem;
-        text-align: center;
-        margin-bottom: 70px;
-        font-weight: 400;
-    }
 }
 
 .listMenu {
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

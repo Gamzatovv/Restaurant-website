@@ -1,6 +1,7 @@
 import style from './Chiefs.module.scss'
 import dataBaseChiefs from '../../../../assets/dataBase/dataBaseChiefs.json'
 import Chief from './Chief/Chief'
+import Title from '../../../../components/common/Title/Title'
 
 interface ChiefType {
     id: number;
@@ -19,12 +20,11 @@ const Chiefs = () => {
     return (
         <div className={style.chiefs}>
             <div className='container'>
-                <div className={style.subTitle}>
-                    Experience team member
-                </div>
-                <h3 className={style.title}>
-                    Meet Our Professional Chefs
-                </h3>
+                <Title 
+                    subTitle='Experience team member'
+                    title='Meet Our Professional Chefs'
+                    horizontalPosition='center'
+                />
                 <div className={style.listChiefs}>
                     {listChiefs.map((chief)=><Chief key={chief.id} chief={chief}/>)}
                 </div>

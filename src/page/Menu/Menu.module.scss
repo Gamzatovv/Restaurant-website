@@ -4,23 +4,13 @@
 
 .Menu {
     background-color: style.$color2;
-    .subTitle {
-        margin-top: 130px;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1.6rem;
-        color: style.$color4;
-        margin-bottom: 10px;
+    .sectionParallax {
+        margin-bottom: 130px;
     }
-    .title {
-        font-family: style.$fontFamily;
-        font-size: 4.2rem;
-        font-weight: 400;
-        text-align: center;
-        margin-bottom: 70px;
-        font-weight: 400;
-        
+    .sectionMenuFilter {
+        margin-top: 70px;
     }
+    
 }
 
 

@@ -1,5 +1,6 @@
 import style from './ProceedToBooking.module.scss';
 import Button from '../../ui/button1/button';
+import Title from '../Title/Title';
 
 interface Props {
     background: string;
@@ -12,12 +13,11 @@ const ProceedToBooking = ({background}: Props) => {
         className={style.ProceedToBooking}>
             <div className={style.contentWrapper + ' container'}>
                 <div className={style.titleBlock}>
-                    <div className={style.subtitle}>
-                        Need a table on coffee house
-                    </div>
-                    <h3 className={style.title}>
-                        Booking Table For Your & Family Members
-                    </h3>
+                    <Title 
+                        subTitle='Need a table on coffee house'
+                        title='Booking Table For Your & Family Members'
+                        horizontalPosition='left'
+                    />
                 </div>
                 <Button>
                     Booking table
