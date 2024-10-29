@@ -1,4 +1,4 @@
-@use "/src/utils/variablesSCSS/variables" as style;
+@use "/src/style/variables" as style;
 
 
 
@@ -23,29 +23,4 @@
     }
 }
 
-.categoriesFilter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    .categoriesFilterItem {
-        font-size: 1.4rem;
-        color: #9ea1a2;
-        margin: 0 10px;
-        font-weight: 500;
-        background-color: style.$color3;
-        text-transform: uppercase;
-        padding: 19px 30px;
-        border-radius: 5px;
-        cursor: pointer;
-        &Active {
-            background-color: style.$color4;
-            color: style.$color1;
-        }
-    }
-}
-.menuList {
-    padding: 0 0 130px 0;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 50px;
-}
+

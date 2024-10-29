@@ -1,16 +1,14 @@
-import React from 'react';
-import style from './Main.module.scss';
-import TopSlider from './components/blocks/TopSlider/TopSlider';
-import PopularDishes from './components/blocks/PopularDishes/PopularDishes';
-import PopularMenu from './components/blocks/PopularMenu/PopularMenu';
-import Chiefs from './components/blocks/Chiefs/Chiefs';
-import Reservation from './components/blocks/Reservation/Reservation';
-import AboutRestaurant from './components/blocks/AboutRestaurant/AboutRestaurant';
-import VideoReview from './components/blocks/VideoReview/VideoReview';
-import Advantages from './components/blocks/Advantages/Advantages';
-import ProceedToBooking from '../../components/blocks/ProceedToBooking/ProceedToBooking';
-import ImageGallery from './components/blocks/ImageGallery/ImageGallery';
-import Brands from './components/blocks/Brands/Brands';
+import TopSlider from '../../pageComponents/base/main/TopSlider/TopSlider';
+import PopularDishes from '../../pageComponents/base/main/PopularDishes/PopularDishes';
+import PopularMenu from '../../pageComponents/base/main/PopularMenu/PopularMenu';
+import Chiefs from '../../components/common/Chiefs/Chiefs';
+import Reservation from '../../pageComponents/base/main/Reservation/Reservation';
+import AboutRestaurant from '../../pageComponents/base/main/AboutRestaurant/AboutRestaurant';
+import VideoReview from '../../pageComponents/base/main/VideoReview/VideoReview';
+import Advantages from '../../pageComponents/base/main/Advantages/Advantages';
+import ProceedToBooking from '../../components/common/ProceedToBooking/ProceedToBooking';
+import ImageGallery from '../../pageComponents/base/main/ImageGallery/ImageGallery';
+import Brands from '../../pageComponents/base/main/Brands/Brands';
 
 const Main = () => {
     
@@ -26,7 +24,7 @@ const Main = () => {
                 <PopularMenu/>
             </section>
             <section>
-                <Chiefs/>
+                <Chiefs background='#0e1317' backgroundCard='#090c0f'/>
             </section>
             <section>
                 <Reservation/>

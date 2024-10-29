@@ -1,0 +1,38 @@
+@use "/src/style/variables" as style;
+
+.Counter {
+    line-height: 28px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid style.$color6;
+    display: none;
+    &Active {
+        display: inline-block;
+    }
+   
+}
+
+
+
+.wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    .counterButton {
+        font-weight: 300;
+        font-size: 1.8rem;
+        cursor: pointer;
+        &:nth-child(1) {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        &:nth-child(3) {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+    .counterCount {
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+}

@@ -1,25 +1,19 @@
 import style from './Cart.module.scss';
-import DishCard from './components/blocks/DishCard/DishCard';
-import Form from './components/blocks/Form/Form';
-import { useSelector} from 'react-redux';
-import { RootState } from '../../state/store';
-
-  const Cart = () => {
-    const selectedDishes = useSelector((state: RootState)=>state.dish);
-
+import Form from '../../pageComponents/base/cart/Form/Form';
+import DishCount from '../../pageComponents/base/cart/DishCount/DishCount';
+import DishList from '../../pageComponents/base/cart/DishList/DishList';
+const Cart = () => {
+  
+    
     return (
         <div className={style.Cart}>
-            <div className='container'>
-                <div className={style.dishCount}>
-                    In the basket {selectedDishes.length}
-                </div>
+            <section className='container'>
+                <DishCount/>
                 <div className={style.cartWrapper}>
-                    <div className={style.foundDishes}>
-                        {selectedDishes.map(dish=><DishCard dish={dish}/>)}
-                    </div>
+                    <DishList/>
                     <Form/>
                 </div>
-            </div>
+            </section>
         </div>
     );
 };

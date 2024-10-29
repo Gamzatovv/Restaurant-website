@@ -1,0 +1,11 @@
+@use "/src/style/variables" as style;
+
+.ServiceCards {
+    background-color: style.$color2;
+    padding: 130px 0;
+}
+
+.ServiceCardsWrapper{
+    justify-content: center;
+    display: flex;
+}

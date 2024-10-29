@@ -1,0 +1,52 @@
+@use "/src/style/variables" as style;
+
+.top {
+    padding: 0 30px;
+    height: 49px;
+    background-color: style.$color3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .schedule {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        white-space: pre-wrap;
+        span {
+            color: style.$color4;
+            
+        }
+        img {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            filter: invert(62%) sepia(16%) saturate(735%) hue-rotate(345deg) brightness(94%) contrast(94%);
+
+        }
+    }
+    .media {
+        a img {
+            height: 16px;
+            margin: 8px;
+            filter: invert(80%);
+        }
+    }
+    .location {
+        font-size: 14px;
+        span {
+            color: style.$color4;
+        }
+    }
+}
+
+.bottom {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: style.$color2;
+    .logo {
+        font-size: 3rem;
+        font-family: style.$fontFamily;
+    }
+}

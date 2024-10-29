@@ -1,0 +1,16 @@
+@use "/src/style/variables" as style;
+
+.ImageGallery {
+    background-color: style.$color2;
+    height: 382px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 380px;
+        
+    }
+}
+
+.slide {
+    width: auto;
+}

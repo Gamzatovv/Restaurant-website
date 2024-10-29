@@ -1,0 +1,39 @@
+@use "/src/style/variables" as style;
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: style.$color1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+
+}
+
+input, select {
+    outline: none;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}

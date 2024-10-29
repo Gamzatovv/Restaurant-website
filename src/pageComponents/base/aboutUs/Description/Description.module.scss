@@ -1,0 +1,89 @@
+@use "/src/style/variables" as style;
+
+
+.Description {
+    padding: 130px 0;
+    background-color: style.$color2;
+    .wrapperContent {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.descriptionBlock {
+    width: 40%;
+    .subTitle {
+        color: style.$color4;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 4.2rem;
+        font-family: style.$fontFamily;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .descriptionText {
+        line-height: 28px;
+        color: style.$color5;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+}
+
+.advantages {
+    margin: 40px 0 40px;
+}
+
+.advantagesItem {
+    margin-bottom: 30px;
+    padding-left: 100px;
+    position: relative;
+
+    &:nth-child(1) {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 69px;
+            height: 70px;
+            background-image: url(/public/othersImage/image1.png);
+            background-size: 100%;
+        }
+    }
+    &:nth-child(2) {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 69px;
+            height: 75px;
+            background-image: url(/public/othersImage/coffee1.png);
+            background-size: 100%;
+        }
+    }
+
+    .advantageDescription {
+        font-size: 2.4rem;
+        font-family: style.$fontFamily;
+    } 
+    .advantageSubDescription {
+        line-height: 28px;
+        color: style.$color5;
+        font-size: 1.6rem;
+    }
+}
+
+.imageblock {
+    width: 40%;
+    position: relative;
+    visibility: visible;
+    background-image:linear-gradient(rgba(192, 125, 0, 0.05), rgba(192, 125, 0, 0.05)), url(/public/background/aboutUsPage/image2.jpg);
+    background-position: center top;
+    
+}

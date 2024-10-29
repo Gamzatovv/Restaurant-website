@@ -1,4 +1,11 @@
-@use "/src/utils/variablesSCSS/variables" as style;
+@use "/src/style/variables" as style;
+
+.reservationWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: style.$color2;
+    padding: 130px 0;
+}
 
 .reservationBlock {
     display: flex;

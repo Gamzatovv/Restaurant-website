@@ -1,0 +1,50 @@
+@use "/src/style/variables" as style;
+
+.ServiceСard {
+    background-color: style.$color3;
+    width: 268px;
+    height: 299px;
+    text-align: center;
+    padding-top: 40px;
+
+    .imageWrapper {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 130px;
+        background-color: style.$color2;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        transition: 0.7s;
+
+    }
+    .serviceСardImage {
+        max-width: 70px;
+        max-height: 70px;
+        background-color: rgba(0,0,0,0);
+
+        transition: 0.7s;
+        
+    }
+    .serviceСardName {
+        font-family: style.$fontFamily;
+        font-weight: 400;
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+    .serviceСardDescription {
+        font-size: 1.6rem;
+        color: style.$color5;
+    }
+
+    &:hover {
+        .serviceСardImageBox {
+            background-color: style.$color4;
+        }
+        .serviceСardImage {
+            filter: brightness(0) invert(1);
+        }
+    }
+}

@@ -1,32 +1,30 @@
-import style from './Contacts.module.scss';
-import TopParallax from '../../components/blocks/TopParallax/TopParallax';
-import ContactsCardsBlock from './components/blocks/ContactsCardsBlock/ContactsCardsBlock';
-import MessageForm from './components/blocks/MessageForm/MessageForm';
-import ImageGalleryComponent from '../../components/blocks/ImageGalleryComponent/ImageGalleryComponent';
-import BrandsComponent from '../../components/blocks/BrandsComponent/BrandsComponent';
+import style from './Contacts.module.scss'
+import TopParallax from '../../components/common/TopParallax/TopParallax';
+import ContactsCardsBlock from '../../pageComponents/base/contacts/ContactsCardsBlock/ContactsCardsBlock';
+import MessageForm from '../../pageComponents/base/contacts/MessageForm/MessageForm';
+import ImageGallery from '../../components/common/ImageGallery/ImageGallery';
+import Brands from '../../components/common/Brands/Brands';
 
 const Contacts = () => {
     return (
         <div>
-            <TopParallax 
-            title={'Contact Us'}
-            imagePath={'background/aboutUsPage/image5.jpg'}/>
-            <div className={style.cardsBlock}>
+            <section>
+                <TopParallax 
+                title={'Contact Us'}
+                imagePath={'background/aboutUsPage/image5.jpg'}/>
+            </section>
+            <section className={style.cardsBlock}>
                 <ContactsCardsBlock/>
-            </div>
-            <div className={style.MessageFormBlock}>
+            </section>
+            <section className={style.MessageFormBlock}>
                 <MessageForm/>
-            </div>
-            <div className={style.imageGalleryBlock}>
-                <ImageGalleryComponent/>
-            </div>
-            <div className={style.BrandsBlock}>
-                <div className='container'>
-                    <BrandsComponent/>
-
-                </div>
-                
-            </div>
+            </section>
+            <section className={style.imageGalleryBlock}>
+                <ImageGallery/>
+            </section>
+            <section className={style.BrandsBlock}>
+                <Brands/>
+            </section>
         </div>
     );
 };

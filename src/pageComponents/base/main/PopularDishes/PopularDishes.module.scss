@@ -1,0 +1,93 @@
+@use "/src/style/variables" as style;
+
+.popularDishes {
+    background-image: url(../../../../../../public/background/category_bg.jpg);
+    background-size: cover;
+    padding-top: 160px;
+    .box {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.images {
+    margin-right: 109.5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 561px;
+}
+.imagesItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-size: 110% 100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 265.5px;
+    height: 287px;
+    transition: 0.7s;
+
+    &:nth-child(1) {
+        background-image: url(../../../../../../public/popularDishes/dish1.jpg);
+        transform: translateY(-60px);
+        
+    }
+    &:nth-child(2) {
+        background-image: url(../../../../../../public/popularDishes/dish2.jpg);
+    }
+    &:nth-child(3) {
+        background-image: url(../../../../../../public/popularDishes/dish3.jpg);
+        transform: translateY(-60px);
+        
+    }
+    &:nth-child(4) {
+        background-image: url(../../../../../../public/popularDishes/dish4.jpg);
+        
+    }
+    div {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 287px;
+        z-index: 222;
+        font-family: "Oswald";
+        background-color: rgba(255,255,255,0);
+        color: rgba(255,255,255,0);
+        font-size: 2.4rem;
+        transition: 0.7s;
+    }
+    
+    &:hover div{
+        color:style.$color1;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    &:hover {
+        background-size: 115% 105%;
+    }
+}
+    
+
+.description {
+    .topText {
+        color: style.$color4;
+        text-transform: uppercase;
+        font-size: 1.6rem; 
+        margin-bottom: 10px;
+    }
+    .title {
+        font-weight: 400;
+        font-family: "Oswald";
+        font-size: 4.2rem;
+        margin-bottom: 30px;
+    }
+    .descriptionText {
+        line-height: 28px;
+        font-weight: 400;
+        color: style.$color5;
+        width: 460px;
+        font-size: 1.6rem;
+    }
+}

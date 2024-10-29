@@ -1,0 +1,6 @@
+@use "/src/style/variables" as style;
+
+.foundDishes {
+    padding: 70px 50px 0px 0;
+    border-top: 3px solid style.$color4;
+}

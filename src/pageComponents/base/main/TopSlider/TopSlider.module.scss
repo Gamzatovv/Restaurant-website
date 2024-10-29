@@ -1,0 +1,48 @@
+@use "/src/style/variables" as style;
+
+.TopSlider {
+    position: relative;
+    z-index: 2;
+}
+.slide {
+    position: relative;
+    z-index: 3;
+    background-image:linear-gradient(rgb(14, 19, 23, 0.2), rgb(14, 19, 23, 0.2));
+
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+
+    .content {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .topText {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        .topTextLine {
+            margin-right: 20px;
+            width: 30px;
+            height: 1px;
+            background-color: style.$color4;
+        }
+    }
+    .description {
+        line-height: 140px;
+        font-size: 12rem;
+        font-family: "Oswald";
+        font-weight: 500;
+        width: 650px;
+        margin-bottom: 50px;
+    }
+}
+
+.buttonBlock {
+    display: flex;
+    .buttonWrapper {
+        margin-right: 10px;
+    }
+}

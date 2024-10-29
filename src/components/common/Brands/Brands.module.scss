@@ -1,0 +1,18 @@
+@use "/src/style/variables" as style;
+
+.BrandsComponent {
+    padding: 70px 0;
+    background-color: style.$color2;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    .BrandImage {
+        height: 80px;
+        transition: 0.5s;
+        filter: invert(22%) sepia(9%) saturate(357%) hue-rotate(163deg) brightness(28%) contrast(88%);
+        &:hover {
+            filter: invert(0%);
+        }
+    }
+}

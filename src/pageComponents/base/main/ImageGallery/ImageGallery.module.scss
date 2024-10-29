@@ -1,0 +1,6 @@
+@use "/src/style/variables" as style;
+
+.ImageGallery {
+    padding-top: 130px;
+    background-color: style.$color3;
+}

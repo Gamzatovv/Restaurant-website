@@ -1,0 +1,36 @@
+@use "/src/style/variables" as style;
+
+.popularMenu {
+    background-color: style.$color3;
+    padding-top: 130px;
+    .subtitle {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.6rem;
+        color: style.$color4;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-family: style.$fontFamily;
+        font-size: 4.2rem;
+        text-align: center;
+        margin-bottom: 70px;
+        font-weight: 400;
+    }
+}
+
+.listMenu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    .verticalLine {
+        height: calc(100% - 55px);
+        width: 2px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: style.$color6;
+    }
+}

@@ -1,0 +1,65 @@
+@use "/src/style/variables" as style;
+
+
+.aboutRestaurant {
+    padding: 220px 0 130px;
+    background-image: url(public/background/category_bg.jpg);
+    .box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+.info {
+    width: 40%;
+    
+    .subtitle {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: style.$color4;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-family: style.$fontFamily;
+
+        font-size: 4.2rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        line-height: 28px;
+        font-size: 1.6rem;
+        color: style.$color5;
+        margin-bottom: 30px;
+
+    }
+}
+
+.coffee {
+    display: flex;
+    margin-bottom: 40px;
+    .coffeeImage {
+        width: 69px;
+        height: 75px;
+        margin-right: 30px;
+
+    }
+    .coffeeBlock {
+        .coffeeDescription {
+            font-family: style.$fontFamily;
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+        .coffeeSubDescription {
+            line-height: 28px;
+            font-size: 1.6rem;
+            color: style.$color5;
+        }
+    }
+}
+
+

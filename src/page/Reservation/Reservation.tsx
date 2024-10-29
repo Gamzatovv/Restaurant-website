@@ -1,29 +1,26 @@
-import React from 'react';
-import style from './Reservation.module.scss';
-import ReservationForm from '../../components/blocks/Reservation/ReservationForm';
-import TopParallax from '../../components/blocks/TopParallax/TopParallax';
-import ImageGalleryComponent from '../../components/blocks/ImageGalleryComponent/ImageGalleryComponent';
-import BrandsComponent from '../../components/blocks/BrandsComponent/BrandsComponent';
+import style from './Reservation.module.scss'
+import ReservationForm from '../../components/common/ReservationForm/ReservationForm';
+import TopParallax from '../../components/common/TopParallax/TopParallax';
+import ImageGallery from '../../components/common/ImageGallery/ImageGallery';
+import Brands from '../../components/common/Brands/Brands';
 
 const Reservation = () => {
     return (
         <div>
-            <TopParallax 
-            title={'Reservation'}
-            imagePath={'background/aboutUsPage/image4.jpg'}/>
-            <div className={style.reservationBlock}>
+            <section>
+                <TopParallax
+                title={'Reservation'}
+                imagePath={'background/aboutUsPage/image4.jpg'}/>
+            </section>
+            <section className={style.reservationWrapper}>
                 <ReservationForm/>
-            </div>
-            <div className={style.imageGalleryBlock}>
-                <ImageGalleryComponent/>
-            </div>
-            <div className={style.BrandsBlock }>
-                <div className='container'>
-
-                <BrandsComponent/>
-                </div>
-            </div>
-
+            </section>
+            <section className={style.imageGalleryWrapper}>
+                <ImageGallery/>
+            </section>
+            <section className={style.BrandsWrapper }>
+                <Brands/>
+            </section>
         </div>
     );
 };

@@ -1,0 +1,16 @@
+@use "/src/style/variables" as style;
+
+.VideoReviewWrapper {
+    padding-top: 130px;
+    background-color: style.$color2;
+}
+
+.imageGalleryWrapper {
+    padding-top: 130px;
+    background-color: style.$color3;
+}
+
+.advantagesWrapper {
+    padding: 130px 0;
+    background-color: style.$color3;
+}

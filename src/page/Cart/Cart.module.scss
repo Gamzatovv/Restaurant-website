@@ -1,17 +1,10 @@
-@use "/src/utils/variablesSCSS/variables" as style;
+@use "/src/style/variables" as style;
 
 .Cart {
     background-color: style.$color2;
 }
 
-.dishCount {
-    font-size: 5rem;
-    font-weight: 400;
-    margin-bottom: 70px;
-    font-family: style.$fontFamily;
-    text-transform: uppercase;
-    color: style.$color1;
-}
+
 
 .cartWrapper {
     display:    grid;
@@ -19,8 +12,3 @@
     gap: 100px;
 }
 
-.foundDishes {
-    padding: 70px 50px 0px 0;
-
-    border-top: 3px solid style.$color4;
-}
