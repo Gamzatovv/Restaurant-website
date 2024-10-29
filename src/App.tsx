@@ -2,6 +2,7 @@ import './App.scss'
 
 import { Route, Routes } from 'react-router-dom'
 
+import SubHeader from './components/layout/SubHeader/SubHeader'
 import Header from './components/layout/Header/Header'
 import Footer from './components/layout/Footer/Footer'
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+      <SubHeader/>
       <Header/>
         <Routes>
           <Route path="/" element={<Main/>}/>
