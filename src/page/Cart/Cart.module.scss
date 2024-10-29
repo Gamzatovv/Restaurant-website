@@ -2,12 +2,11 @@
 
 .Cart {
     background-color: style.$color2;
+    min-height: calc(100vh - 533px);
 }
 
-
-
 .cartWrapper {
-    display:    grid;
+    display: grid;
     grid-template-columns: auto 400px;
     gap: 100px;
 }
