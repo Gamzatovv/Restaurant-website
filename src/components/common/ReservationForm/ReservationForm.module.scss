@@ -95,7 +95,8 @@
 }
 
 .characterEmail {
-    font-size: 2rem;
+    font-size: 18px;
     font-family: style.$fontFamily;
     font-weight: 500;
+    filter: contrast(100%);
 }
